@@ -1,0 +1,46 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(128, 116, 116, 0.5),rgba(184, 170, 170, 0.5)) ,url('https://images.pexels.com/photos/9429448/pexels-photo-9429448.jpeg?cs=srgb&dl=pexels-monstera-9429448.jpg&fm=jpg&_gl=1*1ifit1s*_ga*MTM0OTIwNDAuMTY1NjU5NzgyNg..*_ga_8JE65Q40S6*MTY2ODUwODc1My4yNC4xLjE2Njg1MDg3NzEuMC4wLjA.' )no-repeat fixed center;
+    background-size: cover;
+}
+.registerTitle{
+font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label{
+    margin: 10px 0;
+}
+.registerInput{
+    background-color: white;
+    padding: 10px;
+    border: none;
+}
+.registerButton{
+    background-color: teal;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    cursor:pointer;
+    padding: 10px;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
